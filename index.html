@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="randompg.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+        <div class="square">
+            <div class="allText">
+                <h1 id="title">Generate a <div class="line-2">random password</div></h1>
+                <p id="underText">Never use an insecure password again.</p>
+                <button onclick="generatePassword()">Generate passwords</button>
+            </div>
+            <div class="line"></div>
+            <div class="boxes">
+                <div class="box-1">
+                    <p id="password-1" onclick="navigator.clipboard.writeText(this.textContent); this.style.color = '#e0bacd'; let old1 = this.textContent; this.textContent = 'Copied!'; setTimeout(() => {
+                        this.style.color = '';
+                        this.textContent = old1;
+                        }, 2000)"></p>
+                        <p class="copyclick">Click to copy!</p>
+                </div>
+                <div class="box-2">
+                    <p id="password-2" onclick="navigator.clipboard.writeText(this.textContent); this.style.color = '#e0bacd'; let old2 = this.textContent; this.textContent = 'Copied!'; setTimeout(() => {
+                        this.style.color = '';
+                        this.textContent = old2;
+                        }, 2000)"></p>
+                        <p class="copyclick">Click to copy!</p>
+                </div>
+            </div>
+        </div>
+        <script src="randompg.js"></script>

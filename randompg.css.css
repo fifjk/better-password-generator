@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.aleo-font {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.square {
+    width:100vw;
+    height: 100vh;
+    background-color: #E0B0FF;
+    border: 30px solid #FAE6FA;
+    border-radius: 34px;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+#title {
+     color: white;
+     margin: 0;
+     padding-bottom: 8px;
+     font-family: "Aleo";
+     font-size: 50px;
+}
+
+.line-2 {
+    color: #9683EC;
+}
+
+
+#underText {
+    color: white;
+    margin: 0;
+    padding-bottom: 40px;
+    font-family: "Aleo";
+    font-size: 21px;
+}
+
+button {
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+    padding-top: 2px;
+    background-color: #9683EC;
+    border: none;
+    color: white;
+    font-family: "Sansation";
+    font-size: 22px;
+}
+
+.line {
+    height: 2px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.box-1 {
+    height: 35px;
+    width: 230px;
+    background-color: #645394;
+    border-radius: 5px;
+}
+ 
+.box-2 {
+    height: 35px;
+    width: 230px;
+    background-color: #645394;
+    border-radius: 5px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    font-family: "Sansation";
+    font-size: 20px ;
+}
+
+#password-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  margin: 0;
+}
+
+#password-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  margin: 0;
+}
+
+.copyclick {
+    display: none;
+    justify-content: center;
+    display: none;
+    font-size: 18px;
+
+}
+
+
+.box-1:hover .copyclick {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-2:hover .copyclick {
+    display: flex;
+    flex-wrap: wrap;
+}

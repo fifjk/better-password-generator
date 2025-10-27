@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "vite": "^7.1.9"
+  },
+  "name": "betterpasswordrg",
+  "version": "1.0.0",
+  "description": "Tristans hjemmeside af hans venner",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "Fifi",
+  "license": "ISC"
+}
+
+
